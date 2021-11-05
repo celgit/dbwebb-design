@@ -4,22 +4,36 @@
 }
 
 .nav ul {
-    display: flex;
+    display: inline-block;
     justify-content: flex-end;
     padding: 1em 0;
     list-style: none;
+    background-color: #2f96b4;
 }
 
 .nav ul li {
     padding: 0 1em;
+    display: inline-block;
 }
 
 .nav a, .nav-toggle {
-    color: #333;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.7rem;
 }
 
 .nav-toggle {
     display: none;
+}
+
+.nav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.nav a.active {
+    color: tomato;
+    background-color: SeaShell;
 }
 
 @media (max-width: 767px) {

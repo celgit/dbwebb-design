@@ -1,13 +1,13 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is the starting page.
 
 ---
 
-Home page
+Welcome
 ==========================
 
 The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
-
+This is a simple web page made with pico, among other things.  
+I hope you enjoy!
