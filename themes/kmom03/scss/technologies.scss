@@ -1,0 +1,13 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    //grid-template-areas: 'top-left top-middle top-right' 'middle-left middle-middle middle-right' 'bottom bottom';
+    //grid-template-columns: repeat(3, 1fr);
+}
+
+.landingpage h1,
+p
+{
+    grid-column: span 3;
+    justify-self: center;
+}

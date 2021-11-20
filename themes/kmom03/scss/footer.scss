@@ -1,0 +1,17 @@
+.footer {
+    background-color: $background-color;
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+    text-align: center;
+}
+
+.footer a {
+    color: $font-color;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer .fontawesome {
+    font-size: 2rem;
+    float: right;
+}

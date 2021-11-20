@@ -1,0 +1,29 @@
+@media screen and (max-width: 960px) {
+    .main {
+        max-width: 80%;
+        padding: 0.5em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main.landingpage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main.landingpage.technology {
+        width: 40px;
+    }
+
+    .side-bar {
+        visibility: hidden;
+    }
+
+    .header {
+        width: 75%;
+        padding: 0.5em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'header-left' 'header-middle' 'header-right';
+    }
+}
