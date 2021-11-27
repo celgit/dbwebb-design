@@ -6701,25 +6701,24 @@ p {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  * {
-    background-color: #0a0a0a;
-    color: rgba(166, 214, 255, 0.8);
-  }
+* {
+  background-color: #0a0a0a;
+  color: rgba(166, 214, 255, 0.8);
+}
 
-  img {
-    filter: opacity(80%);
-  }
+img {
+  filter: opacity(80%);
+}
 
-  .title h1 {
-    background-color: #0a0a0a;
-  }
+.title h1 {
+  background-color: #0a0a0a;
+}
 
-  a p {
-    background-color: #0a0a0a;
-  }
+a p {
+  background-color: #0a0a0a;
+}
 
-  .main,
+.main,
 .kmom-box,
 h1,
 h2,
@@ -6730,19 +6729,42 @@ ul,
 ol,
 .nav ul,
 li {
-    background-color: #3c3c3c;
-  }
+  background-color: #3c3c3c;
+}
 
-  pre,
+pre,
 pre code,
 table,
 .main blockquote,
 .main blockquote p,
 em {
-    background-color: #1e1e1e;
-  }
+  background-color: #1e1e1e;
+}
 
-  .nav a {
-    color: rgba(166, 214, 255, 0.8);
-  }
+.nav a {
+  color: rgba(166, 214, 255, 0.8);
+}
+
+.analysis {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.analysis h1,
+p,
+h2 {
+  grid-column: span 3;
+  justify-self: left;
+}
+
+.analysis.box {
+  width: 250px;
+  background-color: #4b4b4b;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 10px 10px;
+}
+
+.analysis a {
+  text-decoration: none;
 }

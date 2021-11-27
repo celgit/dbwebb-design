@@ -1,0 +1,23 @@
+.analysis {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.analysis h1,
+p,
+h2 {
+    grid-column: span 3;
+    justify-self: left;
+}
+
+.analysis.box {
+    width: 250px;
+    background-color: $box-bg-color;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 10px 10px;
+}
+
+.analysis a {
+    text-decoration: none;
+}
