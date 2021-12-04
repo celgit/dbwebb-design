@@ -6529,30 +6529,6 @@ ul {
   padding-left: 1.5em;
 }
 
-img, embed, object, video {
-  max-width: 100%;
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  top: 2%;
-  left: 21%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 60%;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6586,6 +6562,33 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  top: 2%;
+  left: 21%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60%;
 }
 
 @media screen and (max-width: 768px) {
@@ -6792,4 +6795,23 @@ h2 {
 
 .analysis a {
   text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.gallery h1,
+.gallery p {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.grid3 {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
