@@ -1,0 +1,57 @@
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    top: 2%;
+    left: 21%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        max-width: 80%;
+        padding: 0.5em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main.landingpage,
+    .main.gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main.landingpage.technology {
+        width: 40px;
+    }
+
+    .side-bar {
+        visibility: hidden;
+    }
+
+    .header {
+        width: 75%;
+        padding: 0.5em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'header-left' 'header-middle' 'header-right';
+    }
+}

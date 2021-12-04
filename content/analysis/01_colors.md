@@ -19,7 +19,8 @@ Resultat
 ### Sweclockers:
 Här ser ni Sweclockers startsida.
 <br>
-<img src="../assets/img/sweclockers.png">
+
+<img src="%base_url%/image/sweclockers.png">
 <br>
 Färgerna som används är:
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -36,7 +37,7 @@ Färgerna som används är:
 ### Feber:
 Här ser ni Febers startsida.
 <br>
-<img src="../assets/img/feber.png">
+<img src="%base_url%/image/feber.png">
 <br>
 Färgerna som används är:
 
@@ -53,7 +54,7 @@ Färgerna som används är:
 ### Omni:
 Här ser ni Omnis startsida.
 <br>
-<img src="../assets/img/omni.png">
+<img src="%base_url%/image/omni.png">
 <br>
 Färgerna som används är:
 

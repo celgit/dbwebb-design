@@ -1,4 +1,5 @@
 ---
+
 Logo: image/notReallyMeTransperant.png
 Tagline: The portfolio of Cel.
 Social:
@@ -15,7 +16,6 @@ Social:
       url: ?action=session_destroy
       icon: fas fa-trash-alt
 ---
-
 <!-- Länkarna om ni inte vill ha dem i er footer --->
 <a href="?action=session_destroy">Destroy Session</a>
 <a href="?action=theme">Swap theme</a>

@@ -6529,30 +6529,6 @@ ul {
   padding-left: 1.5em;
 }
 
-img, embed, object, video {
-  max-width: 100%;
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  top: 2%;
-  left: 21%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 60%;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6588,7 +6564,7 @@ pre code {
   line-height: 1.4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .main {
     max-width: 80%;
     padding: 0.5em;
@@ -6596,8 +6572,7 @@ pre code {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .main.landingpage,
-.main.gallery {
+  .main.landingpage {
     display: flex;
     flex-direction: column;
   }
@@ -6709,7 +6684,7 @@ img {
 }
 
 .landingpage h1,
-.landingpage p {
+p {
   grid-column: span 3;
   justify-self: center;
 }

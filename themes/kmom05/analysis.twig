@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    <div class="grid wrapper">
+        {% include 'incl/nav.twig' %}
+        <div class="side-bar">
+            {% for page in pages("analysis") %}
+                <a href="{{ page.url }}">
+                    <div class="analysis">
+                        {{ page.title }}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="main analysis">
+            {{ content }}
+        </div>
+        {% include 'incl/footer.twig' %}
+    </div>
+</body>
