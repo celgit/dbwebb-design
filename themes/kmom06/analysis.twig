@@ -1,0 +1,28 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    <div class="grid wrapper">
+        {% include 'incl/nav.twig' %}
+        <div class="side-bar colorized">
+            {% for page in pages("analysis") %}
+                <a href="{{ page.url }}">
+                    <div class="analysis">
+                        {{ page.title }}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="main analysis">
+            {{ content }}
+            {% for page in pages("analysis") %}
+                {% if page.title == 'Laddningstider' %}
+                    <div class="embed-container">
+                        <iframe title="googleDocsSpreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSA29mIAu1hDhBP0UFPuW-6jdKyu-6U1BAF4ShIHaps4cJtnU70F5rCl41M30MBilp83zJ-UQCUQZbN/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
+" width="100%" height="600px"></iframe>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        {% include 'incl/footer.twig' %}
+    </div>
+</body>

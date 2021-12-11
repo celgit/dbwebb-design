@@ -1,0 +1,45 @@
+* {
+    background-color: $background-color;
+    color: $font-color;
+}
+
+img {
+    filter: opacity(80%);
+}
+
+.title h1 {
+    background-color: $background-color;
+}
+
+a p {
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.main,
+.kmom-box,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+.nav ul,
+li {
+    background-color: $background-color-main;
+}
+
+pre,
+pre code,
+table,
+.main blockquote,
+.main blockquote p,
+em {
+    background-color: $background-alternative-color;
+}
+
+.nav a{
+    color: $font-color;
+}
+

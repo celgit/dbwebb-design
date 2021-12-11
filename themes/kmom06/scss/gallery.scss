@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.gallery h1,
+.gallery p {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+
+.grid3 {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}

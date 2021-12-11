@@ -15,12 +15,12 @@ Använde ColorZilla för att fånga färgerna och använde dem för att analyser
 
 Resultat
 -----------------------
-
 ### Sweclockers:
 Här ser ni Sweclockers startsida.
 <br>
-
-<img src="%base_url%/image/sweclockers.png">
+  <picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/sweclockers-smaller.webp">
+    <img src="%base_url%/image/sweclockers-small.webp"  alt="swec" width=100%>
 <br>
 Färgerna som används är:
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -37,7 +37,9 @@ Färgerna som används är:
 ### Feber:
 Här ser ni Febers startsida.
 <br>
-<img src="%base_url%/image/feber.png">
+<picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/feber-smaller.webp">
+    <img src="%base_url%/image/feber-small.webp" alt="feber" width=100%>
 <br>
 Färgerna som används är:
 
@@ -54,7 +56,9 @@ Färgerna som används är:
 ### Omni:
 Här ser ni Omnis startsida.
 <br>
-<img src="%base_url%/image/omni.png">
+<picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/omni-smaller.webp">
+    <img src="%base_url%/image/omni-small.webp" alt="feber" width=100%>
 <br>
 Färgerna som används är:
 

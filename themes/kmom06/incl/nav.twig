@@ -1,0 +1,27 @@
+<div class="header colorized" role="banner">
+    {% if pages["_meta"].meta.logo %}
+        <div class="logo grid left">
+            <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+        </div>
+    {% endif %}
+    <div class="title grid middle" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+        <h1>{{ site_title }}</h1>
+        {{ pages["_meta"].meta.tagline|markdown }}
+    </div>
+    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
+       tabindex="0">
+        <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+        <span class="sr-only">Toggle Menu</span>
+    </a>
+    <div class="nav grid right">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

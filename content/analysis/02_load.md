@@ -8,11 +8,17 @@ Laddningstider
 
 Jag valde samma sidor för detta som för färg-analysen.
 - Sweclockers
-  <img src="%base_url%/image/sweclockers.png">
+  <picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/sweclockers-smaller.webp">
+    <img src="%base_url%/image/sweclockers-small.webp"  alt="swec" width=100%>
 - Feber
-  <img src="%base_url%/image/feber.png">
+  <picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/feber-smaller.webp">
+    <img src="%base_url%/image/feber-small.webp" alt="feber" width=100%>
 - Omni
-  <img src="%base_url%/image/omni.png">
+  <picture>
+    <source media="(max-width: 900px)" srcset="%base_url%/image/omni-smaller.webp">
+    <img src="%base_url%/image/omni-small.webp" alt="feber" width=100%>
 
 Metod
 -----------------------
