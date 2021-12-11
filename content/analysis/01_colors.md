@@ -18,9 +18,7 @@ Resultat
 ### Sweclockers:
 Här ser ni Sweclockers startsida.
 <br>
-  <picture>
-    <source media="(max-width: 900px)" srcset="%base_url%/image/sweclockers-smaller.webp">
-    <img src="%base_url%/image/sweclockers-small.webp"  alt="swec" width=100%>
+<img src="%base_url%/image/sweclockers.webp"  alt="swec" width=100%>
 <br>
 Färgerna som används är:
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -37,9 +35,7 @@ Färgerna som används är:
 ### Feber:
 Här ser ni Febers startsida.
 <br>
-<picture>
-    <source media="(max-width: 900px)" srcset="%base_url%/image/feber-smaller.webp">
-    <img src="%base_url%/image/feber-small.webp" alt="feber" width=100%>
+<img src="%base_url%/image/feber.webp" alt="feber" width=100%>
 <br>
 Färgerna som används är:
 
@@ -53,12 +49,11 @@ Färgerna som används är:
 </table>
 <br>
 
+
 ### Omni:
 Här ser ni Omnis startsida.
 <br>
-<picture>
-    <source media="(max-width: 900px)" srcset="%base_url%/image/omni-smaller.webp">
-    <img src="%base_url%/image/omni-small.webp" alt="feber" width=100%>
+<img src="%base_url%/image/omni.webp" alt="feber" width=100%>
 <br>
 Färgerna som används är:
 
@@ -71,6 +66,7 @@ Färgerna som används är:
 </tr>
 </table>
 <br>
+
 
 Analys
 -----------------------
